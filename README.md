@@ -1,8 +1,7 @@
 # React App Pagination
 
 <p align="center">
-  <img src="./src/images/mario.gif
-  " width="300">
+  <img src="./src/images/mario.gif" width="300">
 </p>
 
 This project will show you the different ways you could handle the pagination. Ih this oportunity you have two choices a custom one and another one with MUI. This project I used MUI as UI tool for React.
