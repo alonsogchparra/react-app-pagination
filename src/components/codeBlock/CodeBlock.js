@@ -9,8 +9,7 @@ import {
 } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Box } from '@mui/system';
-import { CopyBlock, dracula, github, atomOneDark
-} from 'react-code-blocks';
+import { CopyBlock, dracula, atomOneDark } from 'react-code-blocks';
 import { Link } from 'react-router-dom';
 import codes from '../../codes/codes';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -88,7 +87,9 @@ export const CodeBlock = () => {
                   }
                   codeBlock
                   theme={
-                    location?.pathname === '/custom-code' ? atomOneDark : dracula
+                    location?.pathname === '/custom-code'
+                      ? atomOneDark
+                      : dracula
                   }
                   showLineNumbers
                 />
