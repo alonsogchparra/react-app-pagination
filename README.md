@@ -20,4 +20,4 @@ yarn start
 
 Besides the examples on the project you can check how I handled both cases for the pagination part. I hope this help you in your personal or professional projects.
 
-Also you can how the project goes [here]()
+Also you can how the project goes **[here](https://alonsogchparra.github.io/react-app-pagination)**
