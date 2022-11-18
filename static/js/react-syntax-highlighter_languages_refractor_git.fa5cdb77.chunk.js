@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_app_pagination=self.webpackChunkreact_app_pagination||[]).push([[2564],{5120:function(a){function e(a){a.languages.git={comment:/^#.*/m,deleted:/^[-\u2013].*/m,inserted:/^\+.*/m,string:/("|')(?:\\.|(?!\1)[^\\\r\n])*\1/m,command:{pattern:/^.*\$ git .*$/m,inside:{parameter:/\s--?\w+/m}},coord:/^@@.*@@$/m,commit_sha1:/^commit \w{40}$/m}}a.exports=e,e.displayName="git",e.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_git.fa5cdb77.chunk.js.map
