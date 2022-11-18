@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page-item {
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-item.active {
+  cursor: none;
+  background-color: #aaa7a7;
+  pointer-events: none;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.fab-position-up {
+  margin: 0;
+  top: 20px;
+  right: auto;
+  bottom: auto;
+  left: 20px;
+  position: fixed;
+}
