@@ -102,7 +102,7 @@ export const CodeBlock = () => {
                   <Typography variant='subtitle1' textAlign='center'>
                     Also feel free to check the entire code on my{' '}
                     <a
-                      href='https://github.com/alonsogchparra'
+                      href='https://github.com/alonsogchparra/react-app-pagination'
                       target='_blank'
                       rel='noreferrer'
                     >
