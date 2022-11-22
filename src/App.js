@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { CodeBlock } from './components/codeBlock/CodeBlock';
 import { CustomPagination } from './components/customPagination/CustomPagination';
 import { Dashboard } from './components/Dashboard';
@@ -7,7 +7,7 @@ import { PageNotFound } from './components/PageNotFound';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/'>
       <Routes>
         <Route path='/' element={<Dashboard />} />
         <Route path='/custom-pagination' element={<CustomPagination />} />
